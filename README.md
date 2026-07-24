@@ -1,18 +1,18 @@
 # Uni-Works
 
-Uni-Works is a professional university-project monorepo by [SeragMahmoud](https://github.com/SeragMahmoud). It collects five academic software, AI, robotics, and project-management projects in one clean GitHub portfolio.
+Professional university-project portfolio by [SeragMahmoud](https://github.com/SeragMahmoud), organized as five independent GitHub-ready project folders.
 
-Each project is organized independently under `projects/` with its own documentation, setup notes, source code or safe project artifacts, and configuration guidance.
+The repository combines robotics, full-stack web development, AI product architecture, software-engineering lifecycle work, and software project management. Each project folder includes a detailed README, documentation, diagrams, setup or review guidance, security notes, and selected safe implementation evidence.
 
 ## Projects
 
-| # | Project | Description | Technology Stack | Link |
+| # | Project | Type | Stack / Focus | Link |
 | --- | --- | --- | --- | --- |
-| 1 | Chess ARM | Robotic chess player that connects camera-based board detection, Stockfish chess decisions, and servo-arm movement. | Python, OpenCV, NumPy, python-chess, Stockfish, PySerial, Tkinter, Arduino/ESP32 C++ | [projects/01-chess-arm](projects/01-chess-arm/) |
-| 2 | Company Management System | ASP.NET Core MVC web application for account, department, and employee management. | .NET 8, C#, ASP.NET Core MVC, Entity Framework Core, SQL Server, Razor, Bootstrap | [projects/02-company-management-system](projects/02-company-management-system/) |
-| 3 | Intelligent Interview Simulation System | AI interview-simulation concept with avatar interaction, speech workflows, multimodal analysis, research, and system design documentation. | AI system design, DeepSeek workflow concept, speech-to-text, text-to-speech, facial analysis, tone analysis, verification design | [projects/03-intelligent-interview-simulation-system](projects/03-intelligent-interview-simulation-system/) |
-| 4 | Car Service Center | Software Engineering 1 and 2 case study with requirements, UML/design artifacts, Java domain model, JSP/Servlet web apps, Derby database access, and tests. | Java, Maven, Java EE, JSP, Servlets, JDBC, Apache Derby, NetBeans Ant, TestNG, UML | [projects/04-car-service-center-software-engineering](projects/04-car-service-center-software-engineering/) |
-| 5 | IISS Software Project Management | Project-management case study for IISS covering initiation, planning, monitoring/control, closure, scheduling, communication, RAID, and governance artifacts. | Microsoft Project workflow, PMBOK-inspired documentation, Word/PowerPoint planning artifacts summarized in Markdown | [projects/05-iiss-software-project-management](projects/05-iiss-software-project-management/) |
+| 1 | Chess ARM | Hardware-dependent source portfolio | Python, OpenCV, Stockfish, PySerial, Arduino/ESP32, servo control | [projects/01-chess-arm](projects/01-chess-arm/) |
+| 2 | Company Management System | Runnable web-app source with local DB setup | .NET 8, ASP.NET Core MVC, EF Core, SQL Server, Razor, Bootstrap | [projects/02-company-management-system](projects/02-company-management-system/) |
+| 3 | Intelligent Interview Simulation System | Sanitized AI product case study | Flutter, Node/Express, MongoDB, WebSockets, AI backend integration, multimodal feedback | [projects/03-intelligent-interview-simulation-system](projects/03-intelligent-interview-simulation-system/) |
+| 4 | Car Service Center | Software-engineering lifecycle and Java prototype | Java, Maven, JSP, Servlets, JDBC, Apache Derby, UML, TestNG artifacts | [projects/04-car-service-center-software-engineering](projects/04-car-service-center-software-engineering/) |
+| 5 | IISS Software Project Management | Documentation and governance case study | PMBOK-inspired planning, lifecycle artifacts, communication, RAID, change control, closure | [projects/05-iiss-software-project-management](projects/05-iiss-software-project-management/) |
 
 ## Repository Structure
 
@@ -29,23 +29,17 @@ Uni-Works/
     05-iiss-software-project-management/
 ```
 
-## Setup Expectations
+## Review Guidance
 
-Each project has its own setup instructions inside its folder. In general:
-
-- Python projects use `requirements.txt`.
-- .NET projects use `dotnet build` and `dotnet run`.
-- Java projects use Maven or NetBeans/Ant project files.
-- Documentation-focused projects can be reviewed directly through Markdown files.
+- Use each project README as the starting point.
+- Use `docs/` inside each project for architecture, setup, testing, security, and limitations.
+- Use `.env.example` files only as placeholder templates. Real `.env` files are intentionally excluded.
+- Some projects are hardware-dependent or private-service-dependent, so they are presented as source-backed portfolio case studies rather than guaranteed one-command demos.
 
 ## Security Notice
 
-Secrets and private local configuration are intentionally excluded. Real `.env` files, credentials, database connection strings, private keys, local databases, generated build output, dependency folders, and large opaque binaries are not committed.
+The public repository excludes real credentials, `.env` files, database secrets, local absolute paths, private logs, generated dependency/build folders, raw private documents, large model files, and sensitive media.
 
-Where a project needs configuration, use the included `.env.example` file as a safe template and provide real values only in your local environment.
+## License
 
-## Author
-
-Created and maintained by [SeragMahmoud](https://github.com/SeragMahmoud).
-
-Individual setup instructions are available inside each project folder.
+Project-specific reuse rights are not granted automatically. Each project folder includes `LICENSE-NOT-INCLUDED.md` unless a future explicit license is added.

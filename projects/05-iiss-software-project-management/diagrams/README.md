@@ -1,13 +1,8 @@
 # Diagrams
 
-This folder is reserved for visual project management outputs exported from Microsoft Project or other modeling tools.
+Management diagrams for the public case study are embedded as Mermaid in:
 
-| Folder | Intended Content |
-| --- | --- |
-| [wbs/](wbs/) | Work Breakdown Structure visuals. |
-| [gantt/](gantt/) | Gantt chart exports and timeline views. |
-| [network-diagram/](network-diagram/) | Dependency and critical-path diagrams. |
-| [milestones/](milestones/) | Milestone charts and executive schedule snapshots. |
+- [../README.md](../README.md)
+- [../docs/TECHNICAL_ARCHITECTURE.md](../docs/TECHNICAL_ARCHITECTURE.md)
 
-When diagrams are exported, use the naming convention described in [../repository-management.md](../repository-management.md).
-
+Future public-safe exports can be added here after metadata review, including WBS, Gantt, network, and milestone diagrams.

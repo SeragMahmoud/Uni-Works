@@ -1,5 +1,7 @@
 # Diagram Sources
 
-This folder contains editable source files for diagrams so the visual documentation can be updated later.
+This folder contains editable source files recovered from the original documentation package.
 
-Most source files are in the `.simp` format.
+- [uml](uml/) - Editable UML `.simp` files and ERDPlus source.
+
+The original backup files and tool user-state files were intentionally omitted from the GitHub-ready copy.

@@ -1,0 +1,13 @@
+.env
+.env.*
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.mpp
+*.pdf
+*.zip
+*.rar
+*.log
+~$*
+desktop.ini

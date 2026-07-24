@@ -1,11 +1,20 @@
-# Demo
+# Demo Review Guide
 
-This folder is prepared for screenshots, screen recordings, and demo assets for the Company Management System.
+## Local Demo
 
-Recommended media:
+1. Set `COMPANY_DB_CONNECTION_STRING`.
+2. Restore and build the solution.
+3. Apply EF Core migrations when a local SQL Server instance is available.
+4. Run `dotnet run --project source/CompanyProject/CompanyProject.csproj`.
+5. Open `/Account/Login`.
+6. Register an account, log in, then review department and employee CRUD pages.
 
-- Login page screenshot.
-- Registration page screenshot.
-- Department management flow.
-- Employee management flow.
+## No-Database Review
 
+If SQL Server is unavailable, inspect:
+
+- `source/CompanyProject/Controllers`
+- `source/CompanyProject/Views`
+- `source/Company.DAL/Entites`
+- `source/Company.Reposatory`
+- `docs/DATABASE_DESIGN.md`
