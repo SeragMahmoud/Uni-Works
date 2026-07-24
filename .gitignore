@@ -1,0 +1,91 @@
+# Secrets and local environment files.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*.json
+*service-account*.json
+
+# Dependency folders and virtual environments.
+node_modules/
+vendor/
+venv/
+.venv/
+env/
+
+# Python.
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# .NET.
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Java and web build output.
+target/
+build/
+dist/
+*.class
+*.war
+*.ear
+
+# Preserve checked-in ASP.NET static web libraries used by the MVC views.
+!projects/02-company-management-system/source/CompanyProject/wwwroot/lib/**/dist/
+!projects/02-company-management-system/source/CompanyProject/wwwroot/lib/**/dist/**
+
+# Test, coverage, and generated output.
+coverage/
+.coverage
+generated/
+*.log
+logs/
+*.tmp
+
+# Local databases and runtime data.
+*.sqlite
+*.sqlite3
+*.db
+*.mdb
+*.accdb
+
+# Opaque/large academic or media artifacts excluded from the public GitHub source publish.
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.pdf
+*.mp4
+*.mov
+*.avi
+*.mpp
+*.rar
+*.zip
+*.7z
+
+# Large ML/model artifacts.
+*.pt
+*.onnx
+*.engine
+datasets/
+
+# IDE and OS files.
+.vs/
+.idea/
+.vscode/
+nbproject/private/
+*.iml
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Nested Git metadata should never be committed inside project folders.
+**/.git/

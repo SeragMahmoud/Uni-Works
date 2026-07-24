@@ -1,0 +1,56 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="94R7jFLI0SBOOR5cUSFK">
+    <mxGraphModel dx="913" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rqKdprXcu-cjONRfk1TP-1" value="&lt;div&gt;Purpose: The Model layer is responsible for managing the data, business logic, and rules of the application.&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;Components to include:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;User Data Structure: Define the structure of user data, such as username, password, email.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;Database Access: Methods for interacting with the database, like finding a user by username, checking credentials, and saving user data.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;Business Logic: Handle password hashing and verification&amp;nbsp; user authentication status, and possible session management.&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="350" y="430" width="220" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="rqKdprXcu-cjONRfk1TP-2" value="Model" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="370" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rqKdprXcu-cjONRfk1TP-3" value="&lt;div&gt;Purpose: The View layer is in charge of rendering the user interface.&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;Components to include:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;Login Form: A form with fields for entering a username and password.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;Error Messages: Display error messages for failed login attempts, such as incorrect username or password.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;Successful Login Redirect: After login, redirect the user to a home page or dashboard.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="610" y="100" width="230" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="rqKdprXcu-cjONRfk1TP-4" value="View" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="40" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rqKdprXcu-cjONRfk1TP-5" value="&lt;div&gt;Purpose: The Controller handles the communication between the Model and View, processing user input and directing responses.&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;Components to include:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;Handle Login Request: Capture form data from the login view, validate input, and pass data to the Model for authentication.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;Authentication: Use the Model to check credentials; if valid, update session or token.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;Routing Logic: If login is successful, redirect to the appropriate view; if not, re-render the login view with an error message.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="20" y="120" width="250" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="rqKdprXcu-cjONRfk1TP-6" value="Controller" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="60" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rqKdprXcu-cjONRfk1TP-7" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=1.001;entryY=0.441;entryDx=0;entryDy=0;entryPerimeter=0;width=7;endSize=16.73;exitX=-0.004;exitY=0.55;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="rqKdprXcu-cjONRfk1TP-3" target="rqKdprXcu-cjONRfk1TP-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="260" as="sourcePoint" />
+            <mxPoint x="480" y="210" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rqKdprXcu-cjONRfk1TP-8" value="user event" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="392.5" y="150" width="105" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rqKdprXcu-cjONRfk1TP-9" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.575;exitY=1.011;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="rqKdprXcu-cjONRfk1TP-5" target="rqKdprXcu-cjONRfk1TP-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="470" as="sourcePoint" />
+            <mxPoint x="220" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rqKdprXcu-cjONRfk1TP-10" value="change state" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="420" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rqKdprXcu-cjONRfk1TP-11" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1.015;exitY=0.137;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="rqKdprXcu-cjONRfk1TP-1" target="rqKdprXcu-cjONRfk1TP-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="410" as="sourcePoint" />
+            <mxPoint x="680" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rqKdprXcu-cjONRfk1TP-12" value="update" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="410" width="90" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
