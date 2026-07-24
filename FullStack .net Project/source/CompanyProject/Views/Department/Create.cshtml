@@ -1,0 +1,55 @@
+﻿@using Company.DAL.Entites
+@model Department
+
+@{
+    ViewData["Title"] = "Create Department";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-lg border-0">
+        <div class="card-header bg-primary text-white">
+            <h4 class="mb-0"><i class="fas fa-building"></i> Create New Department</h4>
+        </div>
+        <div class="card-body">
+            <form asp-action="Create">
+                <div class="mb-3">
+                    <label asp-for="Code" class="form-label fw-bold">Department Code</label>
+                    <input asp-for="Code" class="form-control" placeholder="Enter department code" />
+                    <span asp-validation-for="Code" class="text-danger small"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Name" class="form-label fw-bold">Department Name</label>
+                    <input asp-for="Name" class="form-control" placeholder="Enter department name" />
+                    <span asp-validation-for="Name" class="text-danger small"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="CreationDate" class="form-label fw-bold">Creation Date</label>
+                    <input asp-for="CreationDate" class="form-control" placeholder="Select creation date" type="date" />
+                    <span asp-validation-for="CreationDate" class="text-danger small"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Description" class="form-label fw-bold">Description</label>
+                    <textarea asp-for="Description" class="form-control" rows="3" placeholder="Enter department description"></textarea>
+                    <span asp-validation-for="Description" class="text-danger small"></span>
+                </div>
+
+                <div class="d-flex justify-content-between">
+                    <button type="submit" class="btn btn-success px-4">
+                        <i class="fas fa-save"></i> Create
+                    </button>
+                    <a asp-controller="Department" asp-action="Index" class="btn btn-outline-secondary px-4">
+                        <i class="fas fa-arrow-left"></i> Back To List
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.env
+*.log
+*.tmp
+
+# Vision model weights and datasets can be large.
+*.pt
+*.onnx
+*.engine
+datasets/
+
+# IDE and OS files.
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,26 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Office temporary and lock files
+~$*
+*.tmp
+*.bak
+*.wbk
+
+# Microsoft Project temporary files
+*.mpt~
+*.mpx.bak
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Generated exports and local review outputs
+*.log
+dist/
+build/
+out/

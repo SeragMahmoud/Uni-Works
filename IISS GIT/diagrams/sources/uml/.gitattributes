@@ -1,0 +1,3 @@
+*.simp binary
+*.erdplus binary
+*.gitattributes text eol=lf

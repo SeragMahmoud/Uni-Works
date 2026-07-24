@@ -1,0 +1,71 @@
+﻿@using Company.DAL.Entites
+@model Account
+@{
+    ViewData["Title"] = "Create Account";
+}
+
+<style>
+ 
+
+    .card {
+        background-color: rgba(255, 255, 255, 0.95);
+        border-radius: 1rem;
+    }
+
+    .card-header {
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+    }
+</style>
+
+<div class="container d-flex justify-content-center align-items-center min-vh-100">
+    <div class="col-md-6">
+        <div class="card shadow-lg border-0">
+            <div class="card-header bg-primary text-white text-center">
+                <h3 class="mb-0">
+                    <i class="fas fa-user-plus me-2"></i> Create New Account
+                </h3>
+            </div>
+            <div class="card-body p-4">
+                <form asp-action="Create" method="post" novalidate>
+                    <div class="mb-3">
+                        <label asp-for="Email" class="form-label fw-semibold">Email Address</label>
+                        <input asp-for="Email" class="form-control rounded-3" placeholder="example@example.com" />
+                        <span asp-validation-for="Email" class="text-danger small"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Password" class="form-label fw-semibold">Password</label>
+                        <input asp-for="Password" class="form-control rounded-3" type="password" placeholder="********" />
+                        <span asp-validation-for="Password" class="text-danger small"></span>
+                    </div>
+
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-success rounded-3 fw-bold">
+                            <i class="fas fa-save me-1"></i> Register
+                        </button>
+                    </div>
+                </form>
+
+                <hr class="my-4" />
+
+                <div class="text-center">
+                    <p class="mb-0">Already have an account?</p>
+                    <a asp-controller="Account" asp-action="Login" class="btn btn-outline-primary mt-2 fw-bold">
+                        <i class="fas fa-sign-in-alt me-1"></i> Sign In
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <script>
+        @if (ViewBag.regError != null)
+        {
+            <text>
+                        alert("@ViewBag.regError");
+            </text>
+        }
+    </script>
+}

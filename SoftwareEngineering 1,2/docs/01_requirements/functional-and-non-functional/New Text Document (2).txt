@@ -1,0 +1,50 @@
+Functional Requirements :
+
+User Management:
+
+1: The system shall differentiate between two user types: Administrators and Users.
+2: Users shall be able to create an account.
+
+Appointment Management:
+
+3: Users shall be able to browse through a list of services offered.
+4: Each service description shall include details and pricing information.
+5: Users shall be able to schedule appointments by selecting a service, date, time, and adding any special notes.
+6: The system shall display a calendar view for appointment selection.
+7: Users shall be able to view their service history, including past bookings and received services.
+8: Users shall receive real-time updates on the status of their ongoing services. 
+9: Users shall be able to book last-minute appointments through the mobile app. 
+
+Customer Feedback:
+
+10: Users shall be able to leave feedback and reviews after receiving a service.
+11: Users shall be able to view reviews left by other customers.
+
+Admin Panel Functionalities:
+
+12: Administrators shall have access to an admin panel for managing all aspects of the system.
+13: Administrators shall be able to view and manage all bookings, including details, assigning technicians/resources, and updating booking statuses.
+14: Administrators shall be able to add, edit, or remove services from the system, including pricing and additional details.
+15: Administrators shall have access to the complete service history of each customer and track their service statuses.
+16: Administrators shall be able to view and respond to customer feedback.
+17: Administrators shall manage the system's database, adding, editing, or deleting customer and service information.
+18: Administrators shall be able to view the daily schedule and allocate resources accordingly.
+19: Administrators shall be able to view and manage all payments through the admin panel.
+20: Administrators shall be able to send push notifications to users for reminders, promotions, or updates.
+
+Search Functionality:
+
+21: The system shall have an internal search engine allowing users to search for services in various ways:
+21.1: By part name
+21.2: By date range
+21.3: By category
+
+
+Non-Functional Requirements:
+
+1:Security: The system shall employ secure user authentication and access control mechanisms to protect user data (account information, booking details, etc.).
+2:Performance: The system shall provide fast response times for all user interactions on the web app.
+3:Availability: The system shall be highly available with minimal downtime to ensure users can access appointment booking and service information.
+4:Scalability: The system shall be scalable to handle an increasing number of users and appointments in the future.
+5:Usability: The web app interfaction shall be user-friendly and intuitive for both administrators and users with varying technical skills.
+6:Maintainability: The system's code shall be well-documented and maintainable for future updates and bug fixes.

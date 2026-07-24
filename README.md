@@ -1,18 +1,18 @@
 # Uni-Works
 
-Professional university-project portfolio by [SeragMahmoud](https://github.com/SeragMahmoud), organized as five independent GitHub-ready project folders.
+Professional university-project portfolio by [SeragMahmoud](https://github.com/SeragMahmoud), organized as the five GitHub-ready project folders prepared from the local faculty project workspace.
 
-The repository combines robotics, full-stack web development, AI product architecture, software-engineering lifecycle work, and software project management. Each project folder includes a detailed README, documentation, diagrams, setup or review guidance, security notes, and selected safe implementation evidence.
+The repository combines robotics, full-stack web development, AI product architecture, software-engineering lifecycle work, and software project management. Each folder keeps the project name used in the prepared local package.
 
 ## Projects
 
-| # | Project | Type | Stack / Focus | Link |
-| --- | --- | --- | --- | --- |
-| 1 | Chess ARM | Hardware-dependent source portfolio | Python, OpenCV, Stockfish, PySerial, Arduino/ESP32, servo control | [projects/01-chess-arm](projects/01-chess-arm/) |
-| 2 | Company Management System | Runnable web-app source with local DB setup | .NET 8, ASP.NET Core MVC, EF Core, SQL Server, Razor, Bootstrap | [projects/02-company-management-system](projects/02-company-management-system/) |
-| 3 | Intelligent Interview Simulation System | Sanitized AI product case study | Flutter, Node/Express, MongoDB, WebSockets, AI backend integration, multimodal feedback | [projects/03-intelligent-interview-simulation-system](projects/03-intelligent-interview-simulation-system/) |
-| 4 | Car Service Center | Software-engineering lifecycle and Java prototype | Java, Maven, JSP, Servlets, JDBC, Apache Derby, UML, TestNG artifacts | [projects/04-car-service-center-software-engineering](projects/04-car-service-center-software-engineering/) |
-| 5 | IISS Software Project Management | Documentation and governance case study | PMBOK-inspired planning, lifecycle artifacts, communication, RAID, change control, closure | [projects/05-iiss-software-project-management](projects/05-iiss-software-project-management/) |
+| # | Project Folder | Type | Stack / Focus |
+| --- | --- | --- | --- |
+| 1 | [IISS GIT](IISS%20GIT/) | Intelligent interview simulation portfolio | AI interview workflow, multimodal analysis, diagrams, demo media, research, documentation |
+| 2 | [SPM](SPM/) | IISS software project management package | feasibility, charter, planning, RAID, communication, closure, Microsoft Project artifacts |
+| 3 | [chess_ARM(CV,Engine)](chess_ARM%28CV%2CEngine%29/) | Robotic chess player | Python, OpenCV, Stockfish, PySerial, Arduino/ESP32, servo control |
+| 4 | [SoftwareEngineering 1,2](SoftwareEngineering%201%2C2/) | Car service center software-engineering case study | Java, Maven, JSP, Servlets, JDBC, Apache Derby, UML, TestNG artifacts |
+| 5 | [FullStack .net Project](FullStack%20.net%20Project/) | Company management web application | .NET 8, ASP.NET Core MVC, EF Core, SQL Server, Razor, Bootstrap |
 
 ## Repository Structure
 
@@ -21,12 +21,11 @@ Uni-Works/
   README.md
   .gitignore
   .gitattributes
-  projects/
-    01-chess-arm/
-    02-company-management-system/
-    03-intelligent-interview-simulation-system/
-    04-car-service-center-software-engineering/
-    05-iiss-software-project-management/
+  IISS GIT/
+  SPM/
+  chess_ARM(CV,Engine)/
+  SoftwareEngineering 1,2/
+  FullStack .net Project/
 ```
 
 ## Review Guidance

@@ -1,0 +1,22 @@
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build and publish output.
+publish/
+artifacts/
+
+# Runtime and local configuration.
+*.log
+.env
+appsettings.Local.json
+
+# IDE and OS files.
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

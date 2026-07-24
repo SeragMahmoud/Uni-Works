@@ -39,8 +39,8 @@ dist/
 *.ear
 
 # Preserve checked-in ASP.NET static web libraries used by the MVC views.
-!projects/02-company-management-system/source/CompanyProject/wwwroot/lib/**/dist/
-!projects/02-company-management-system/source/CompanyProject/wwwroot/lib/**/dist/**
+!FullStack .net Project/source/CompanyProject/wwwroot/lib/**/dist/
+!FullStack .net Project/source/CompanyProject/wwwroot/lib/**/dist/**
 
 # Test, coverage, and generated output.
 coverage/
@@ -57,19 +57,14 @@ logs/
 *.mdb
 *.accdb
 
-# Opaque/large academic or media artifacts excluded from the public GitHub source publish.
-*.doc
-*.docx
-*.ppt
-*.pptx
-*.pdf
-*.mp4
-*.mov
-*.avi
-*.mpp
+# Opaque archive packages and generated binary outputs.
 *.rar
 *.zip
 *.7z
+*.dll
+*.exe
+*.pdb
+*.cache
 
 # Large ML/model artifacts.
 *.pt
@@ -81,7 +76,8 @@ datasets/
 .vs/
 .idea/
 .vscode/
-nbproject/private/
+**/nbproject/private/
+**/nbproject/private/**
 *.iml
 .DS_Store
 Thumbs.db
@@ -89,3 +85,8 @@ desktop.ini
 
 # Nested Git metadata should never be committed inside project folders.
 **/.git/
+**/.git/**
+**/*.git/
+**/*.git/**
+**/archive/git-metadata/
+**/archive/git-metadata/**

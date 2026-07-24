@@ -1,0 +1,17 @@
+# Operating system files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Editor and workspace files
+.vscode/
+.idea/
+*.code-workspace
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+
+# Local inspection clones or generated scratch folders
+.remote-inspect/

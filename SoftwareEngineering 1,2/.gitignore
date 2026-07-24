@@ -1,0 +1,25 @@
+# Java build output.
+target/
+build/
+dist/
+*.class
+*.war
+*.ear
+*.jar
+
+# NetBeans and IDE local files.
+nbproject/private/
+*.iml
+.idea/
+.vscode/
+
+# Local server and generated files.
+gfv3ee6.dpf
+generated/
+*.log
+*.tmp
+
+# OS files.
+.DS_Store
+Thumbs.db
+desktop.ini
