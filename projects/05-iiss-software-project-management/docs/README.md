@@ -1,15 +1,15 @@
-# Software Project Management Documents
+# IISS Software Project Management Documentation
 
-This folder contains the core IISS project management documents. The documents are grouped by lifecycle phase so a reviewer can follow the project from justification and authorization through planning, control, and closure.
-
-## Contents
-
-| Folder | Purpose |
+| Document | Purpose |
 | --- | --- |
-| [01_initiation/](01_initiation/README.md) | Defines the project need, business value, authorization, and strategic context. |
-| [02_planning/](02_planning/README.md) | Captures stakeholder communication, training, goals, risks, assumptions, issues, and dependencies. |
-| [03_monitoring-and-control/](03_monitoring-and-control/README.md) | Preserves formal change control and governance artifacts. |
-| [04_closure/](04_closure/README.md) | Contains project completion, sign-off, and lessons-learned material. |
-
-These documents connect directly to the Microsoft Project schedule in [../microsoft-project/](../microsoft-project/README.md).
-
+| [PROJECT_OVERVIEW.md](PROJECT_OVERVIEW.md) | Original artifact catalogue and publication boundary. |
+| [TECHNICAL_ARCHITECTURE.md](TECHNICAL_ARCHITECTURE.md) | Lifecycle model, PMBOK mapping, and governance flow. |
+| [SYSTEM_DESIGN.md](SYSTEM_DESIGN.md) | Documentation-system design. |
+| [FEATURES.md](FEATURES.md) | Management feature list. |
+| [SETUP_AND_USAGE.md](SETUP_AND_USAGE.md) | Review instructions. |
+| [TECHNOLOGY_STACK.md](TECHNOLOGY_STACK.md) | Tools and methods. |
+| [SECURITY_AND_PRIVACY.md](SECURITY_AND_PRIVACY.md) | Public boundary and safe publication practices. |
+| [TESTING.md](TESTING.md) | Documentation validation checklist. |
+| [LIMITATIONS_AND_FUTURE_WORK.md](LIMITATIONS_AND_FUTURE_WORK.md) | Limitations and next steps. |
+| [PROJECT_STRUCTURE.md](PROJECT_STRUCTURE.md) | Public folder layout. |
+| [code-snippets/README.md](code-snippets/README.md) | Explains why code snippets do not apply. |
