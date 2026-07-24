@@ -1,9 +1,8 @@
 # UML Diagrams
 
-This folder contains exported UML diagrams.
+The public folder does not include the original UML raster exports. The model overview is represented in:
 
-- [Class_Diagram.png](Class_Diagram.png)
-- [Component_Diagram.png](Component_Diagram.png)
-- [Timing_Diagram.jpeg](Timing_Diagram.jpeg)
+- [../../docs/DATABASE_DESIGN.md](../../docs/DATABASE_DESIGN.md)
+- [../../docs/TECHNICAL_ARCHITECTURE.md](../../docs/TECHNICAL_ARCHITECTURE.md)
 
-Editable UML source files are stored in [../sources/uml](../sources/uml/).
+This avoids linking to private or missing diagram files while preserving the architecture narrative.

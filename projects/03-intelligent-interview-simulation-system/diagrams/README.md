@@ -1,17 +1,12 @@
 # Diagrams
 
-This folder organizes the project diagrams into architecture, flowcharts, UML exports, and editable diagram sources.
+This folder is kept as the diagram index for the IISS case study.
 
-## Structure
+The public portfolio diagrams are embedded as Mermaid in:
 
-- [architecture](architecture/) - High-level system architecture and block diagram.
-- [flowcharts](flowcharts/) - Module-level processing flows.
-- [uml](uml/) - Exported UML diagrams.
-- [sources](sources/) - Editable diagram source files.
+- [../README.md](../README.md)
+- [../docs/TECHNICAL_ARCHITECTURE.md](../docs/TECHNICAL_ARCHITECTURE.md)
+- [../docs/SYSTEM_DESIGN.md](../docs/SYSTEM_DESIGN.md)
+- [../docs/DATABASE_DESIGN.md](../docs/DATABASE_DESIGN.md)
 
-## Suggested Review Path
-
-1. Start with [architecture/System_Architecture.png](architecture/System_Architecture.png).
-2. Review [architecture/Block_Diagram.png](architecture/Block_Diagram.png).
-3. Move through the flowcharts to understand individual AI and analysis modules.
-4. Use the UML diagrams for structural and component-level understanding.
+The Original project contains additional PNG/PDF/UML exports. They were not copied here unless they were reviewed as public-safe screenshots under `assets/screenshots`.

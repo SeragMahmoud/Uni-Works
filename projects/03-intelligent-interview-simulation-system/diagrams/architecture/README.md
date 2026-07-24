@@ -1,4 +1,9 @@
 # Architecture Diagrams
 
-- [System_Architecture.png](System_Architecture.png) - High-level system design.
-- [Block_Diagram.png](Block_Diagram.png) - Main project block diagram.
+Editable architecture diagrams for the public case study are embedded in Markdown as Mermaid:
+
+- [../../README.md](../../README.md)
+- [../../docs/TECHNICAL_ARCHITECTURE.md](../../docs/TECHNICAL_ARCHITECTURE.md)
+- [../../docs/SYSTEM_DESIGN.md](../../docs/SYSTEM_DESIGN.md)
+
+Original raster architecture exports were not copied because the public folder now uses reviewable text-based diagrams.

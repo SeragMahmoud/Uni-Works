@@ -1,10 +1,5 @@
 # UML Source Files
 
-Editable UML diagram sources:
+Original editable UML files were identified in the private source tree, but they are not included in this public case study.
 
-- [class_diagram.simp](class_diagram.simp)
-- [object_diagram.simp](object_diagram.simp)
-- [package_diagram_gradpro.simp](package_diagram_gradpro.simp)
-- [use_case_diagram.simp](use_case_diagram.simp)
-
-Backup and user-state files are kept for traceability where they were part of the original project package.
+Use the Mermaid diagrams in the project README and `docs/` folder as the editable public diagram sources.
